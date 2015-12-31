@@ -55,7 +55,7 @@ header .right-nav ul {
 .btn{
 	text-decoration:none;
 	color:#333333;
-	font-size:20px;
+	font-size:14px;
 	font-weight:bold;
   width: 96px;
 	line-height:32px;
@@ -67,10 +67,5 @@ header .right-nav ul {
   font-family: Sleek;
   text-transform: capitalize;
   margin-right: 10px;
-  box-shadow: 2px 2px 2px grey;
-}
-.btn:hover{
-  position: relative;
   box-shadow: 1px 1px 1px grey;
-  top: 1px;
 }
