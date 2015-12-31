@@ -1,0 +1,76 @@
+@font-face {
+    font-family: Sleek;
+    src: url(../fonts/Sleek.ttf);
+}
+html, body {
+  margin: 0 !important;
+  padding: 0 !important;
+}
+body {
+  background: #101419;
+}
+header {
+  width: 100%;
+  height: 75px;
+  position: relative;
+  background: white;
+  border-bottom: 4px solid gray;
+  display: flex;
+  justify-content: space-between;
+}
+header .main-nav ul {
+  list-style-type: none;
+  line-height: 75px;
+  display: inline-flex;
+  margin: 0px;
+}
+header .main-nav ul li .branding {
+  display: inline-block;
+  height: 75px;
+  padding: 0px 25px;
+  color: #101419;
+  font-family: Sleek;
+  font-size: 3em;
+}
+header .main-nav ul li > a:not(.branding) {
+  display: inline-block;
+  height: 75px;
+  padding: 0px 25px;
+  color: #1E152A;
+  transition: all 0.30s ease;
+  font-family: Sleek;
+  font-size: 1.5em;
+  text-decoration: none;
+}
+header .main-nav ul li > a:hover:not(.branding){
+  box-shadow: inset 0 -75px 0 0 gray;
+}
+
+header .right-nav ul {
+  list-style-type: none;
+  line-height: 75px;
+  display: inline-flex;
+  margin: 0px;
+}
+.btn{
+	text-decoration:none;
+	color:#333333;
+	font-size:20px;
+	font-weight:bold;
+  width: 96px;
+	line-height:32px;
+	height: 36px;
+	display:inline-block;
+	text-align:center;
+	background-color:#DDDDDD;
+  border-radius: 4px;
+  font-family: Sleek;
+  text-transform: capitalize;
+  margin-right: 10px;
+  box-shadow: 2px 2px 2px grey;
+}
+.btn:hover{
+  position: relative;
+  box-shadow: 1px 1px 1px grey;
+  top: 1px;
+}
