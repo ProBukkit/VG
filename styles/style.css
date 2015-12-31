@@ -23,7 +23,6 @@ header .main-nav ul {
   line-height: 75px;
   display: inline-flex;
   margin: 0px;
-  padding-left: 10px;
 }
 header .main-nav ul li .branding {
   display: inline-block;
