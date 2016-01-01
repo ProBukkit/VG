@@ -13,8 +13,8 @@ header {
   width: 100%;
   height: 75px;
   position: relative;
-  background: #64646D;
-  border-bottom: 4px solid gray;
+  background: white;
+  border-bottom: 4px solid #99ebff;
   display: flex;
   justify-content: space-between;
 }
@@ -43,7 +43,7 @@ header .main-nav ul li > a:not(.branding) {
   text-decoration: none;
 }
 header .main-nav ul li > a:hover:not(.branding){
-  box-shadow: inset 0 -75px 0 0 gray;
+  box-shadow: inset 0 -75px 0 0 #99ebff;
 }
 
 header .right-nav ul {
@@ -54,7 +54,7 @@ header .right-nav ul {
 }
 .btn {
 	text-decoration:none;
-	color:#424248;
+	color:black;
 	font-size:14px;
 	font-weight:bold;
   width: 96px;
@@ -62,9 +62,40 @@ header .right-nav ul {
 	height: 36px;
 	display:inline-block;
 	text-align:center;
-	background-color:#DDDDDD;
+	background-color:#99ebff;
   border-radius: 4px;
   font-family: Sleek;
   margin-right: 10px;
   box-shadow: 1px 1px 1px grey;
+}
+.container {
+  top: 0px;
+  width: 100%;
+  background: #f2f2f2;
+  font-family: Sleek;
+}
+.container .title {
+  width: 100%;
+  height: 200px;
+  position: relative;
+  line-height: 200px;
+}
+.container .title p {
+  font-size: 2.5em;
+  text-align: center;
+}
+.container .box-holder {
+  display: -webkit-flex;
+   display: flex;
+   -webkit-flex-direction: row /* works with row or column */
+   flex-direction: row;
+   -webkit-align-items: center;
+   align-items: center;
+   -webkit-justify-content: center;
+   justify-content: center;
+  text-align: center;
+}
+.container .box-holder div {
+  width: 320px;
+  height: 320px;
 }
